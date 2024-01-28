@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"
+  </head>
+  <body>
+    <form action="/index.html" method="post">
+      <h2>
+        <b>Thank you for joining us for a session at Code Labs Academy!</b>
+      </h2>
+      <label for="date">Session Date</label>
+      <input type="date" id="date" name="Sdate" required />
+      <label for="Subject">Subject</label>
+      <select id="Subject" name="Subject">
+        <option value="Other">Other</option>
+        <option value="Html">Html</option>
+        <option value="Css">Css</option>
+        <option value="Javascript">Javascript</option>
+      </select>
+      <p>
+        Please mention any topic you would like to ask further questions or
+        gather more information on.
+      </p>
+      <label for="comment"></label>
+      <textarea id="comment" rows="3" cols="25"></textarea>
+      <p>Do you study at home?</p>
+      <label for="Yes">Yes</label>
+      <input type="radio" id="Yes" name="answer" value="Yes" />
+      <label for="No">No</label>
+      <input type="radio" id="No" name="answer" value="No" />
+      <p>Why are you seeking more information on these topics?</p>
+      <label for="questions 1"
+        >I am interested in more in depth discussion</label
+      >
+      <input
+        type="checkbox"
+        id="question"
+        name="questionaire 1"
+        value="question"
+      />
+      <br />
+      <label for="question 2">I didn't understand it in the session</label>
+      <input
+        type="checkbox"
+        id="question 2"
+        name="questionaire 2"
+        value="question"
+      />
+      <br />
+      <label for="question 3">Phone apps</label>
+      <input
+        type="checkbox"
+        id="question 3"
+        name="questionaire 3"
+        value="question"
+        required
+      />
+      <br />
+      <br />
+      <label for="choose a number"
+        >On a scale of 1 to 5*, please indicate how informative you felt the
+        session was.</label
+      >
+      <input
+        type="number"
+        id="choose a number"
+        name="satisfaction"
+        value="choose"
+        required
+      />
+      <br />
+      <label for="choose a number"
+        >On a scale of 1 to 5*, please indicate how engaging you felt the
+        session was.</label
+      >
+      <input
+        type="number"
+        id="choose a number"
+        name="satisfaction"
+        value="choose"
+        required
+      />
+      <br />
+      <label for="choose a number"
+        >On a scale of 1 to 5*, please indicate how likely you feel it is that
+        you would recommend the course to a friend.</label
+      >
+      <input
+        type="number"
+        id="choose a number"
+        name="satisfaction"
+        value="choose"
+      />
+      <br />
+      <p>Please use this space to give us any other information</p>
+      <label for="comment"></label>
+      <textarea id="comment" rows="3" cols="25"></textarea>
+      <br />
+      <br />
+      <label for="email">Email address</label>
+      <input type="text" id="email" name="emailA" required />
+      <br />
+      <br />
+      <label for="submission"></label>
+      <input type="submit" value="Submit form" />
+    </form>
+  </body>
+</html>
